@@ -5,12 +5,12 @@ This repository provides an in-depth mathematical exploration of various neural 
 
 ## Contents
 - [Linear Neural Networks](notebooks/01_Linear_NN.ipynb)
-- [Convolutional Neural Networks (CNNs)](notebooks/02_CNN.ipynb)
-- [Recurrent Neural Networks (RNNs)](notebooks/03_RNN.ipynb)
-- [Long Short-Term Memory Networks (LSTMs)](notebooks/04_LSTM.ipynb)
-- [Gated Recurrent Units (GRUs)](notebooks/05_GRU.ipynb)
-- [Attention Mechanisms](notebooks/06_Attention.ipynb)
-- [Transformer Networks](notebooks/07_Transformers.ipynb)
+- [KANs](notebooks/02_KANs.ipynb)
+- [Convolutional Neural Networks (CNNs)](notebooks/03_CNN.ipynb)
+- [Recurrent Neural Networks (RNNs)](notebooks/04_RNN.ipynb)
+- [Long Short-Term Memory Networks (LSTMs)](notebooks/05_LSTM.ipynb)
+- [Gated Recurrent Units (GRUs)](notebooks/06_GRU.ipynb)
+- [Transformers](notebooks/07_Transformers.ipynb)
 
 ## Getting Started
 ### Prerequisites
