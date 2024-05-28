@@ -1,7 +1,5 @@
 # NeuralNet-study
 
-# Mathematical Exploration of Neural Network Architectures
-
 ## Introduction
 This repository provides an in-depth mathematical exploration of various neural network architectures, including Linear Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Long Short-Term Memory Networks (LSTMs), Gated Recurrent Units (GRUs), Attention Mechanisms, and Transformer Networks.
 
