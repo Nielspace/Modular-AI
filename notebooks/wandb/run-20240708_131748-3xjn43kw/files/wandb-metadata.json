@@ -1,0 +1,48 @@
+{
+    "os": "macOS-14.5-arm64-arm-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2024-07-08T07:47:49.928638",
+    "startedAt": "2024-07-08T07:47:48.333149",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Nielspace/NeuralNet-study.git",
+        "commit": "71112f815b9b45960f1daf341b6a25a434c51db6"
+    },
+    "email": "nielspace26@gmail.com",
+    "root": "/Users/nielspace/Documents/Deep Learning/DL-research/NNResearch",
+    "host": "Nileshs-MacBook-Air.local",
+    "username": "nielspace",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/envs/pytorchenv/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3204,
+        "min": 600,
+        "max": 3204
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3204,
+            "min": 600,
+            "max": 3204
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 9.55673599243164
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
