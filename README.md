@@ -17,8 +17,8 @@ This repository contains the code to train a GPT model using different attention
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/gpt-training.git
-   cd gpt-training
+   git clone https://github.com/Nielspace/NeuralNet-study.git
+   cd NeuralNet-study
    ```
 
 2. Install the required dependencies:
