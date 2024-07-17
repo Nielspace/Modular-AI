@@ -93,27 +93,4 @@ Here are some example commands to run the training script with different configu
 - The device will default to `mps` if available, otherwise `cpu`. Ensure that your environment supports the specified device.
 - Adjust the command-line arguments as needed to fit your specific use case and environment.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-### How to Use
-
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/gpt-training.git
-   cd gpt-training
-   ```
-
-2. **Install dependencies**:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Run the training script**:
-   ```sh
-   python train.py [OPTIONS]
-   ```
-
-Replace `[OPTIONS]` with any of the command-line arguments specified above to customize your training run.
