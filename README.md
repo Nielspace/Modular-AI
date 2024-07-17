@@ -1,6 +1,6 @@
 # Modular AI 
 
-We are developing modular AI to help you create scalable prototypes for for your research and development. 
+With modular AI the idea is to build small and compact components for AI research. These small components can be efficiently trained on the M1 Macbook Air and scaled as well. We are hoping to simplify the lengthy code and chip away modules that are not required. This approach will be beneficial for researchers who are looking to ready-made components and understand how these components complement each other. The functionality of the modules can be extended with custom classes and functions as well.
 
 This repository contains the code to train a GPT model using different attention mechanisms. The script supports various configurations that can be set through command-line arguments.
 
