@@ -2,10 +2,9 @@
 
 We are developing modular AI to help you create scalable prototypes for for your research and development. 
 
-
-# GPT Model Training
-
 This repository contains the code to train a GPT model using different attention mechanisms. The script supports various configurations that can be set through command-line arguments.
+
+The data is optimized for pandas dataset so if you are preprocessing dataloader from this repo make sure to go through the `tokenize.py` to get a clear understanding. 
 
 ## Table of Contents
 - [Installation](#installation)
