@@ -1,4 +1,0 @@
-name: pytorchenv
-channels:
-  - defaults
-prefix: /Users/nielspace/miniconda3/envs/pytorchenv
