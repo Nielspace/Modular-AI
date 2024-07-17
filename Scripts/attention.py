@@ -177,8 +177,8 @@ class SparseAttention(nn.Module):
         self.proj = nn.Linear(self.n_embd, self.n_embd)
         self.dropout_p = config.dropout
         self.blocksize = config.block_size
-        self.local_attn_ctx = 32
-        self.attn_mode = "all"
+        self.local_attn_ctx = config.local_attn_ctx
+        self.attn_mode = config.attn_mode
         
 
     def forward(self, x):
