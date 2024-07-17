@@ -1,17 +1,11 @@
-
-import math
-
 import torch
 from torch import nn
-import torch.nn.functional as F
-
+import torch.nn.functional as F 
 
 from einops import rearrange
 
-import os
+#Casual attention
 
-
-#casual attention
 class CausalSelfAttention(nn.Module):
     def __init__(self, config):
         super().__init__()
@@ -40,8 +34,12 @@ class CausalSelfAttention(nn.Module):
 
         attn_output = (attn_probs @ v).transpose(1, 2).reshape(B, T, C)
         attn_output = self.resid_dropout(self.out_proj(attn_output))
+
         return attn_output
     
+
+
+
 #Flash Attention
 class FlashAttention(nn.Module):
     def __init__(self, config):
@@ -93,9 +91,11 @@ class FlashAttention(nn.Module):
         dk = dk.view_as(k)
         dv = dv.view_as(v)
         return dq, dk, dv
+    
 
+# Sparse attention
+import numpy as np
 
-#Sparse Attention
 #ref: https://github.com/kyegomez/SparseAttention/blob/main/sparse_attention.py
 
 def get_attn_mask(n, attn_mode, local_attn_ctx=None):
@@ -167,13 +167,6 @@ def blocksparse_attention_impl(q, k, v, heads, attn_mode, local_attn_ctx=None, b
     return a
 
 class SparseAttention(nn.Module):
-    # n_batch = 4
-    # n_ctx = 1024
-    # n_embd = 256
-    # heads = 4
-    # attn_mode = "all"
-    # local_attn_ctx = 32
-    # blocksize = 32
     def __init__(self, config):
         super(SparseAttention, self).__init__()
         self.n_embd = config.n_embd
