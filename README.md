@@ -87,10 +87,6 @@ Here are some example commands to run the training script with different configu
    python train.py --data_path hf://datasets/gamino/wiki_medical_terms/wiki_medical_terms.parquet --batch_size 4 --learning_rate 3e-4 --gradient_accumulation_steps 80 --local_attn_ctx 64 --attn_mode 'sparse' --bias True --attention_type flash
    ```
 
-## Notes
 
-- Ensure that the required datasets and necessary permissions are available when using paths like `hf://datasets/gamino/wiki_medical_terms/wiki_medical_terms.parquet`.
-- The device will default to `mps` if available, otherwise `cpu`. Ensure that your environment supports the specified device.
-- Adjust the command-line arguments as needed to fit your specific use case and environment.
 
 
