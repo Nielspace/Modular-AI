@@ -81,6 +81,3 @@ Integrate and Test the Training Module
 End
 
 
-------
-Todo:
-1. Simplify complexity
