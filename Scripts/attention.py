@@ -38,8 +38,6 @@ class CausalSelfAttention(nn.Module):
         return attn_output
     
 
-
-
 #Flash Attention
 class FlashAttention(nn.Module):
     def __init__(self, config):
